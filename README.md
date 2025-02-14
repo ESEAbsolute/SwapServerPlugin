@@ -1,4 +1,4 @@
-**需要 Velocity 插件 [SwapServerVelocity]() 支持。**
+**需要 Velocity 插件 [SwapServerVelocity](https://github.com/ESEAbsolute/SwapServerVelocityPlugin) 支持。**
 
 
 该插件支持 Folia，并且主要为解决以 Folia 为服务端核心的群组服刷物品问题而生。
