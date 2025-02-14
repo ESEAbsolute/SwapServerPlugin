@@ -1,0 +1,19 @@
+name: SwapServer
+version: '1.0.0'
+main: com.eseabsolute.swapserver.SwapServer
+folia-supported: true
+api-version: '1.21'
+load: STARTUP
+authors: [ ESEAbsolute ]
+description: Transfer scoreboard objectives from one player to another.
+commands:
+  server:
+    description: "Transfer to target server"
+    usage: /server <server>
+    permission: "swapserver.server"
+    permission-message: "You do not have permission to use this command."
+  queue:
+    description: "Queue to targeted server."
+    usage: /queue <server>
+    permission: "swapserver.queue"
+    permission-message: "You do not have permission to use this command."
